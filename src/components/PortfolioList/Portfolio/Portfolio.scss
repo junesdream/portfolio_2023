@@ -1,0 +1,67 @@
+.portf{
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid #c6e2ff;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  color: #fff;
+
+  /* border: 3px solid transparent; 
+  background: linear-gradient(90deg,#b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%); 
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude; */
+
+   .portf-browser{
+    height: 20px;
+    background: linear-gradient(90deg,#b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+   }
+
+   .portf-circle{
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   margin: 3px;
+   background-color: #c6e2ff;
+   }
+
+   .portf-link{
+    height: 100%;
+    display: flex;
+   }
+
+   .p-img{
+    width: 100%;
+     z-index: 2;
+   }
+
+    .portf-link a{
+    position: relative;
+    width: 100%;
+   }
+  .portf-title{
+    color: #000;
+    font-weight: bold;
+    padding-left: 30px;
+  }
+
+  .portf-desc{
+    color: red;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    text-decoration: underline;
+   }
+}
+
+
+
+
+
+

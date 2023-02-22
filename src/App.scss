@@ -1,0 +1,43 @@
+
+// $primary-color: #ffd700;
+$primary-color: #c6e2ff;
+
+@import 'animate.css';
+
+ @import '~loaders.css/src/animations/pacman.scss';
+// @import '~loaders.css/src/animations/line-scale-pulse-out.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Vibur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Chilanka&family=La+Belle+Aurore&family=Mali:wght@600&family=Manjari:wght@700&family=Monoton&family=Raleway:wght@400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,400;0,500;1,500&family=Sunshiney&family=Unbounded:wght@500;600;700&display=swap');
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:900);
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-weight: normal;
+  font-style: normal;
+}
+
+input, textarea {
+  font-family: "Helvetica Neue";
+}
+
+
+
+.loader-hidden {
+  display: none;
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+} 
