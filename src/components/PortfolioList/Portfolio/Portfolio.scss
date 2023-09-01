@@ -1,0 +1,80 @@
+.portf {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid #c6e2ff;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  color: #fff;
+
+  .portf-browser {
+    height: 20px;
+    background: linear-gradient(
+      90deg,
+      #b827fc 0%,
+      #2c90fc 25%,
+      #b8fd33 50%,
+      #fec837 75%,
+      #fd1892 100%
+    );
+    display: flex;
+    align-items: center;
+    // position: relative;
+    position: sticky;
+    z-index: 2;
+  }
+
+  .portf-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: #c6e2ff;
+  }
+
+  .portf-title {
+    color: #000;
+    font-weight: bold;
+    padding-left: 90px;
+  }
+
+  .portf-link {
+    height: 100%;
+    display: flex;
+  }
+
+  .portf-link a {
+    position: relative;
+    width: 100%;
+  }
+
+  .portf-img {
+    width: 100%;
+    transition: all 10s ease;
+  }
+
+  .portf:hover .portf-img {
+    transform: translateY(-100%);
+  }
+
+  .portf-desc {
+    color: lime;
+    font-weight: bold;
+    z-index: 100;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    text-decoration: underline;
+  }
+}
+
+.portf:hover .portf-img {
+  transform: translateY(-100%);
+}
+
+@media screen and (max-width: 480px) {
+  .p {
+    width: 40%;
+    height: 20vh;
+  }
+} 

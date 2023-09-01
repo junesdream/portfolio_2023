@@ -1,0 +1,16 @@
+html{
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 300 11px/1.4 'Helvetica Neue' 'snas-serif';
+  color: yellowgreen;
+  background-color: #1A1110; 
+  /*background: linear-gradient(to top, #09203f 0%, #537895 100%);*/
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
