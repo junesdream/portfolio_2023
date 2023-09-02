@@ -3,8 +3,6 @@
   height: 100%;
   margin-left: 20px;
   position: absolute;
-  /*background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%); 
-  background: linear-gradient(to left, rgb(204, 156, 223) 0.3%, rgb(155, 219, 245) 20.4%, rgb(245, 183, 208) 40.2%, rgb(250, 186, 98) 62.9%, rgb(234, 238, 240) 81.9%, rgb(250, 245, 171) 99.2%); */
   }
 
 .top-tags {
@@ -52,12 +50,9 @@
 .container.portfolio-page {
   
     h1 {
-      font-size: 53px;
+      font-size: 50px;
       font-family: 'Manjari', sans-serif;
       color:  #c6e2ff;
-      //background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red, orange, yellow, green, blue, indigo);
-      //-webkit-background-clip: text;
-      //-webkit-text-fill-color: transparent;
       font-weight: bold;
       margin-top: 0;
       position: relative;
@@ -106,14 +101,12 @@
       }
       &:nth-of-type(3) {
         animation-delay: 1.3s;
-      }
-
+      }  
       span{
       background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent
        }
-
       a{
         color: #c6e2ff;
         text-decoration: underline;
@@ -144,3 +137,27 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .page {
+    position: initial;
+  }
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    &.about-page,
+    &.contact-page,
+    &.portfolio-page {
+
+    .text-zone {
+      position: initial;
+      transform: none;
+      width: 100%;
+      display: block;
+      padding: 45px;
+      box-sizing: border-box;
+    }
+   }
+  }
+}

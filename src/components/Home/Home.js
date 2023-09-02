@@ -1,5 +1,5 @@
 import React, { useEffect, useState} from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters';
 import './Home.scss';
 import Logo from './Logo/Logo';
@@ -28,7 +28,6 @@ const jobArray = [
   'p',
   'e',
   'r',
-  '.',
 ];
 
 // Set up a delayed animation effect using the useEffect.
@@ -53,7 +52,6 @@ return (
         <br />
         <span className={`${letterClass} _13`}>I</span>
         <span className={`${letterClass} _14`}>'m</span>
-      
         <span className="aniLetter">
           <AnimatedLetters
             letterClass={letterClass}
@@ -69,9 +67,9 @@ return (
         />
       </h1>
       <h2>Junior Frontend Developer </h2>
-      <Link to="/contact" className="flat-button">
+    <Link to="/contact" className="flat-button">
         Contact Me
-      </Link>
+      </Link>  
     </div>
     <Logo />
 

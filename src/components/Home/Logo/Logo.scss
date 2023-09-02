@@ -35,3 +35,16 @@
   stroke: #c6e2ff;
   stroke-width: 10;
 }
+
+@media screen and (max-width: 1200px) {
+ 
+  .logo-container {
+    position: absolute;
+    width: 70%;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+  }
+}

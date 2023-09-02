@@ -78,3 +78,9 @@
     height: 20vh;
   }
 } 
+
+@media screen and (max-width: 1200px) {
+    .portf {
+      height: auto;
+    }
+}  

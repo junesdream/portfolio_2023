@@ -10,11 +10,6 @@
 
   h1 {
     color: #c6e2ff;
-    /*
-    background: linear-gradient(90deg, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2b, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d4ff, #0af, #007fff, #05f, #002bff, #00f, #2a00ff, #50f, #7f00ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
-    color: #0000;
-    -webkit-background-clip: text;
-    background-clip: text; */
     font-size: 56px;
     line-height: 53px;
     margin: 0;
@@ -67,7 +62,6 @@
 }
 
 h2 {
-    //color: #8d8d8d;
     margin-top: 20px;
     font-weight: 400;
     font-size: 11px;
@@ -81,7 +75,6 @@ h2 {
  }
  
   .flat-button {
-    // color: #ffd700;
     color: rgba(0,255,255,0.7);
     box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);
     font-size: 13px;
@@ -97,13 +90,10 @@ h2 {
     white-space: nowrap;
 
     &:hover {
-      // background: rgba(0,255,255,0.7);
-      background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
       animation:slidebg 2s linear infinite;
       transform: translateY(-5px);
       box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
-
-      // color: #333;
       color: #000;
     }
   }
@@ -122,6 +112,56 @@ h2 {
   color: black;
   padding: 8px 16px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .tags,
+  .home-page h1:before,
+  .home-page h1:after {
+    display: none;
+  }
+
+  .home-page .text-zone {
+    position: initial;
+    width: 100%;
+    transform: none;
+    padding: 10px;
+    box-sizing: border-box;
+
+    h1 {
+      font-size: 45px;
+    }
+  }
+
+  .home-page .flat-button {
+    float: none;
+    position: relative;
+    top: 50px;
+    display: felx;
+    align-items: last baseline;
+    justify-content: flex-end;
+    margin: 0 20 0 auto;
+  }
+
+  .logo-container {
+    position: relative;
+    width: 100px;
+    height: auto;
+    top: 100px;
+    right: 0;
+    box-sizing: border-box;
+    margin: auto;
+    left: 0;
+  }
+
+  .logo-container svg {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+  }
 }
 
 

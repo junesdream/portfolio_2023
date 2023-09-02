@@ -1,46 +1,38 @@
-import { useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import './Logo.scss'
 import LogoJ from '../../../assets/images/front-name-2.png'
-import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
+// Import der Anime.js-Bibliothek
+import anime from 'animejs/lib/anime.es.js' 
 
 const Logo = () => {
-  //Classname inside of SVG Container/g tag. All the 3 Elements're going to the container as well. SVG Container, SVG itself & solid image
-  //In order to manipulate to them, in apply gsap(Library of ) animation. For that usning useRef for
-  //3. Elements are: 1. Backgrlound Container, 2. Solidimage 3. for outLineLogo
   const bgRef = useRef()
   const outlineLogoRef = useRef()
   const solidLogoRef = useRef()
 
-  //In order to apply animationeffect we use useEffect Hook. For Array and dependency 
   useEffect(() => {
-    //Register to plugin for drawing the aniamtion from the SVG
-    gsap.registerPlugin(DrawSVGPlugin)
+    // Erstellen Sie eine Anime.js-Animation
+    const animation = anime.timeline({
+      targets: bgRef.current,
+      duration: 1000,
+      opacity: 1,
+    })
 
-    // Call the gsap timeline function. That calls the animation in a secoond
-    //It calls two functions: one calls endstate of animation 
-    gsap
-      .timeline()
-      .to(bgRef.current, {
-        duration: 1,
-        opacity: 1,
-      })
-      // to chain animation. Call the from function 
-      .from(outlineLogoRef.current, {
-        drawSVG: 0,
-        duration: 20,
-      })
+    // Fügen Sie eine Zeichnungsanimation für outlineLogoRef hinzu
+    animation.add({
+      targets: outlineLogoRef.current,
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInOutQuad',
+      duration: 2000,
+    })
 
-    gsap.fromTo(
-      solidLogoRef.current,
+    // Fügen Sie eine Animation für solidLogoRef hinzu
+    animation.add(
       {
-        opacity: 0,
+        targets: solidLogoRef.current,
+        opacity: 1,
+        duration: 1000,
       },
-      {
-        opacity: 1,
-        delay: 4,
-        duration: 4,
-      }
+      '-=1000' // Verzögerung, damit diese Animation später beginnt
     )
   }, [])
 
@@ -50,8 +42,16 @@ const Logo = () => {
         className="solid-logo"
         ref={solidLogoRef}
         src={LogoJ}
-        alt="JavaScript,  Developer"
+        alt="JavaScript, Developer"
       />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 100 100"
+        className="outline-logo"
+        ref={outlineLogoRef}
+      >
+        {/* Fügen Sie hier Ihre SVG-Pfade ein */}
+      </svg>
     </div>
   )
 }
