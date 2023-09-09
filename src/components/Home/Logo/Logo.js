@@ -10,14 +10,14 @@ const Logo = () => {
   const solidLogoRef = useRef()
 
   useEffect(() => {
-    // Erstellen Sie eine Anime.js-Animation
+    // Create an Anime.js-Animation
     const animation = anime.timeline({
       targets: bgRef.current,
       duration: 1000,
       opacity: 1,
     })
 
-    // Fügen Sie eine Zeichnungsanimation für outlineLogoRef hinzu
+    // Add Anitmation to outlineLogoRef 
     animation.add({
       targets: outlineLogoRef.current,
       strokeDashoffset: [anime.setDashoffset, 0],
@@ -25,14 +25,14 @@ const Logo = () => {
       duration: 2000,
     })
 
-    // Fügen Sie eine Animation für solidLogoRef hinzu
+    // Add Animation to solidLogoRef
     animation.add(
       {
         targets: solidLogoRef.current,
         opacity: 1,
         duration: 1000,
       },
-      '-=1000' // Verzögerung, damit diese Animation später beginnt
+      '-=1000' //Delay so that this animation starts later
     )
   }, [])
 

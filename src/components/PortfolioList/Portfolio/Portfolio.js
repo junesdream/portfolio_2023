@@ -12,11 +12,6 @@ const Portfolio = ({ img, link, title, desc }) => {
           <div className="portf-circle"></div>
           <span className="portf-title">{title}</span>
         </div>
-        {/* 
-        <a href={link} target="_blank" rel="noreferrer">
-          <img src={img} alt="" className="portf-img" />
-        </a>  */}
-
         <div className="portf-link">
           <a href={link} target="_blank" rel="noreferrer">
             <img src={img} alt="" className="portf-img" />
