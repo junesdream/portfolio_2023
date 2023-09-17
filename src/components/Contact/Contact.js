@@ -56,9 +56,10 @@ const sendEmail = (e) => {
             />
           </h1>
           <p>
-            I am interested in permanent employment opportunities especially for
-            Junior-Frontend-Position. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I am interested in permanent employment opportunities, particularly
+            for a Full Stack Developer position. If you have any other requests
+            or questions, please don't hesitate to contact me using the form
+            below.
           </p>
           {/* A contact form for user interaction.
           - 'form' is a reference to the form element for later use.

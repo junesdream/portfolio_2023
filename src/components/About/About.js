@@ -30,18 +30,20 @@ useEffect(() => {
            />
          </h1>
          <p>
-           I'm a very ambitious Junior front-end developer looking for a role in
-           an established IT company with the opportunity to work with the
-           latest technologies on challenging and diverse projects.
+           I am an ambitious junior front-end developer seeking a position
+           within an established IT company that offers opportunities to work
+           with the latest technologies on challenging and diverse projects
          </p>
          <p align="LEFT">
-           I'm quiet confident, naturally learning enthusiast, and perpetually
-           working on improving my chops one design problem at a time.
+           I am quietly confident, a natural learning enthusiast, and
+           perpetually dedicated to honing my skills by tackling design
+           challenges one at a time.
          </p>
          <p>
-           If I need to define myself in one sentence that would be willingness
-           to learn and initiativefull person with full of empathy with person,
-           a music fanatic, creativity enthusiast, and new technologie-obsessed!
+           If I were to define myself in one sentence, it would be as a person
+           with a strong willingness to learn, initiative, and empathy. I am
+           also a music fanatic, a lover of creativity, and obsessed with
+           emerging technologies!
          </p>
        </div>
 

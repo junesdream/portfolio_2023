@@ -8,9 +8,10 @@ import Project6 from '../assets/portfImages/weather-app.png'
 import Project7 from '../assets/portfImages/todo-list.png'
 import Project8 from '../assets/portfImages/snake-game.png'
 import Project9 from '../assets/portfImages/restaurant-landingpage.png'
-import Project10 from '../assets/portfImages/landingpage-2.png'
+import Project10 from '../assets/portfImages/landingpage-5.png'
+import Project12 from '../assets/portfImages/landingpage-2.png'
 import Project11 from '../assets/portfImages/travel-landingpage-2.png'
-import Project12 from '../assets/portfImages/travel-landingpage-1.png'
+
 
 
 export const portfolios = [
@@ -73,30 +74,30 @@ export const portfolios = [
 
   {
     id: 9,
-    title: 'Landingpage1',
+    title: 'Landingpage 1',
     img: Project9,
     link: 'https://github.com/junesdream/from_landingpage_1',
     desc: 'JavaScript, HTML, CSS',
   },
-
   {
     id: 10,
-    title: 'Landingpage3',
+    title: 'Landingpage 2',
+    img: Project10,
+    link: 'https://github.com/junesdream/react_landingpage-5',
+    desc: 'JavaScript, HTML, CSS',
+  },
+
+  {
+    id: 11,
+    title: 'Landingpage 3',
     img: Project11,
     link: 'https://github.com/junesdream/travel-ladingpage-three',
     desc: 'JavaScript, HTML, CSS',
   },
   {
-    id: 11,
-    title: 'Landingpage4',
-    img: Project12,
-    link: 'https://github.com/junesdream/travelLadingPage_one/tree/master/src/components',
-    desc: 'JavaScript, HTML, CSS',
-  },
-  {
     id: 12,
-    title: 'Landingpage2',
-    img: Project10,
+    title: 'Landingpage 4',
+    img: Project12,
     link: 'https://github.com/junesdream/restLadingPage_two',
     desc: 'JavaScript, HTML, CSS',
   },

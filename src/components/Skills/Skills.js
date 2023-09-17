@@ -34,31 +34,35 @@ const Skills = () => {
             />
           </h1>
           <p>
-            Career Changer to front-end development including technical skills
-            like
-            <span> HTML5, CSS3, JavaScript, Typescript, Java, React, SQL </span>
-            etc.
+            As a career changer transitioning into front-end development, <br />{' '}
+            I have acquired technical skills such
+            <span>
+              {' '}
+              HTML5, CSS3, JavaScript, Typescript, React, Java, Spring, SQL{' '}
+            </span>
+            and more.
           </p>
           <p align="LEFT">
-            I'm not a designer but I have a good sense of aesthetics & creative
-            mind: Design from nature and for future. I always strive to make web
-            pages with responsive design. I put special effort into optimizing
-            my code and providing enjoyable features. I would like love to give
-            your company&projects kind of support also after the project's
-            completion. I gurantee a commitment during work on project
-            completion in your company.
+            While I may not be a designer by trade, I possess a keen sense of
+            aesthetics and a creative mindset. I draw inspiration from nature
+            and the future, aiming to create web pages with responsive designs.
+            I am dedicated to optimizing my code and delivering delightful user
+            experiences. My commitment extends beyond project completion, and I
+            am eager to provide ongoing support to your company and its
+            projects. <br /> I guarantee unwavering dedication throughout our
+            collabora-tion.
           </p>
           <p>
             Visit my
             <a href="https://www.linkedin.com/in/joon-suk/"> LinkedIn</a>
-            -profile for more details. Also you can chekc my projects on
-            <a href="https://www.linkedin.com/in/joon-suk/"> GitHub</a>. I look
-            forward to any feedbacks!
+            -profile for more details. Also you can check my projects on
+            <a href="https://www.linkedin.com/in/joon-suk/"> GitHub</a>. I
+            eagerly anticipate your feedback.
           </p>
         </div>
 
         {/* Animative presentation of skills */}
-        <div class="stage-ball-cont">
+        <div className="stage-ball-cont">
           <figure class="ball bubble">
             <div className="face1">
               <FontAwesomeIcon icon={faGithub} color="#8FD400" />

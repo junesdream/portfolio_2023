@@ -130,7 +130,6 @@ div {
       background: radial-gradient(circle at 50% 80%, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 74%, white 80%, white 84%, rgba(255, 255, 255, 0) 100%); 
 }
 
-
 @keyframes bubble-anim {
   0% {
     -webkit-transform: scale(1);
@@ -155,3 +154,9 @@ div {
 100% {
     -webkit-transform: scale(1);
     transform: scale(1); } } 
+
+.skils-name{
+  background-color: #ff0000; /* Hier kannst du die gewünschte Hintergrundfarbe in Form eines Farbcodes setzen. #ff0000 ist beispielsweise Rot. */
+  color: #ffffff; /* Optional: Die Schriftfarbe ändern, damit sie auf dem Hintergrund gut lesbar ist. #ffffff ist Weiß. */
+  padding: 10px; /* Optional: Einen Innenabstand hinzufügen, um den Text vom Hintergrund zu trennen. */
+}

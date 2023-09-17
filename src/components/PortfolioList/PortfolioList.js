@@ -31,7 +31,7 @@ const PortfolioList = () => {
             />
           </h1>
           <h2 className="page-undertitle">
-            Inspire from Nature & Create for Future. <br />
+            Inspired by nature and creating for the future <br />
             It's Joon Suk aka &nbsp;&nbsp;
             <span className="page-subunder-title">RainbowDev</span>
           </h2>

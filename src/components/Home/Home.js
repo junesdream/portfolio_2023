@@ -66,7 +66,7 @@ return (
           idx={22}
         />
       </h1>
-      <h2>Junior Frontend Developer </h2>
+      <h2>Fullstack Developer </h2>
     <Link to="/contact" className="flat-button">
         Contact Me
       </Link>  
