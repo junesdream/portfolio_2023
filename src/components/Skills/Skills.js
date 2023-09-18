@@ -50,13 +50,10 @@ const Skills = () => {
             experiences. My commitment extends beyond project completion, and I
             am eager to provide ongoing support to your company and its
             projects. <br /> I guarantee unwavering dedication throughout our
-            collabora-tion.
+            collaboration.
           </p>
           <p>
-            Visit my
-            <a href="https://www.linkedin.com/in/joon-suk/"> LinkedIn</a>
-            -profile for more details. Also you can check my projects on
-            <a href="https://www.linkedin.com/in/joon-suk/"> GitHub</a>. I
+            Visit my <a href="https://www.linkedin.com/in/joon-suk/">LinkedIn</a>-Profile for more details. Also you can check my projects on <a href="https://www.linkedin.com/in/joon-suk/"> GitHub</a>. I
             eagerly anticipate your feedback.
           </p>
         </div>

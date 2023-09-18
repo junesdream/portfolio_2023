@@ -31,7 +31,7 @@ export const portfolios = [
   },
   {
     id: 3,
-    title: 'Rstaurant-Weppage',
+    title: 'Restaurant-Weppage',
     img: Project3,
     link: 'https://github.com/junesdream/restaurant_app_sushi',
     desc: 'React, JS, CSS',
@@ -52,14 +52,14 @@ export const portfolios = [
   },
   {
     id: 6,
-    title: 'Weather App',
+    title: 'Weather-App',
     img: Project6,
     link: 'https://github.com/junesdream/weather-app-n2',
     desc: 'JS, CSS, React',
   },
   {
     id: 7,
-    title: 'Todo List App',
+    title: 'Todo-List-App',
     img: Project7,
     link: 'https://github.com/junesdream/todo-app-n2',
     desc: 'JS, CSS, React',
