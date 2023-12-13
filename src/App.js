@@ -6,7 +6,6 @@ import Contact from './components/Contact/Contact'
 import Layout from './components/Layout/Layout'
 import PortfolioList from './components/PortfolioList/PortfolioList'
 import Skills from './components/Skills/Skills'
-//import Dashboard from './components/Dashboard/Dashboard';
 
 
 // Defining the main App component

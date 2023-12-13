@@ -57,7 +57,7 @@ const sendEmail = (e) => {
           </h1>
           <p>
             I am interested in permanent employment opportunities, particularly
-            for a Full Stack Developer position. If you have any other requests
+            for a Fullstack Developer position. If you have any other requests
             or questions, please don't hesitate to contact me using the form
             below.
           </p>

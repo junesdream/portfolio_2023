@@ -87,7 +87,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/junesdream"
+            href="https://github.com/junesdream?tab=repositories"
             target="_blank"
             rel="noreferrer"
           >

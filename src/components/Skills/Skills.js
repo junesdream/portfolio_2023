@@ -34,7 +34,7 @@ const Skills = () => {
             />
           </h1>
           <p>
-            As a career changer transitioning into front-end development, <br />{' '}
+            As a career changer transitioning into Fullstack Development, <br />{' '}
             I have acquired technical skills such
             <span>
               {' '}
@@ -53,8 +53,11 @@ const Skills = () => {
             collaboration.
           </p>
           <p>
-            Visit my <a href="https://www.linkedin.com/in/joon-suk/">LinkedIn</a>-Profile for more details. Also you can check my projects on <a href="https://www.linkedin.com/in/joon-suk/"> GitHub</a>. I
-            eagerly anticipate your feedback.
+            Visit my{' '}
+            <a href="https://www.linkedin.com/in/joon-suk/">LinkedIn</a>-Profile
+            for more details. Also you can check my projects on{' '}
+            <a href="https://github.com/junesdream?tab=repositories"> GitHub</a>
+            . I eagerly anticipate your feedback.
           </p>
         </div>
 

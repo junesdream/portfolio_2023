@@ -30,7 +30,7 @@ useEffect(() => {
            />
          </h1>
          <p>
-           I am an ambitious junior front-end developer seeking a position
+           I am an ambitious Fullstack Developer seeking a position
            within an established IT company that offers opportunities to work
            with the latest technologies on challenging and diverse projects
          </p>
